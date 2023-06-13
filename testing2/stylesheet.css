@@ -1,0 +1,36 @@
+.containerOut{
+    display: flex;
+    margin:10px;
+    
+}
+
+.containerMid1{
+    flex:1;
+    flex-direction: column;
+    border: 5px;;
+    border-color: blue;
+    gap: 5px;
+}
+
+.item1{
+    background-color: red;
+    
+}
+
+.item2{
+    background-color: green;
+    
+}
+
+.item3{
+    background-color:yellow;
+    
+}
+.containerMid2{
+    flex:auto
+
+}
+
+.containerMid3{
+    flex: auto;
+}
